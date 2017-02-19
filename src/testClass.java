@@ -28,6 +28,8 @@ public class testClass {
 //        Testing the addToFront method
         regList.addStudentToFront(vip);
 
+//        regList.getListAsList().indexOf();
+
 //        Demonstrating that the addToFront method works
         System.out.println(regList.toString());
 
@@ -48,7 +50,7 @@ public class testClass {
         }
         System.out.print("\n");
 
-//        This was simply for curiousities sake about how my computer would behave generating random names
+//        This was simply for curiosities sake about how my computer would behave generating random names
 //        In case your curious the answer is that is does fine up to about 1 million random uuid's however 100 million
 //        locks it up and actually uses up all the memory. Which was impressive.
 
